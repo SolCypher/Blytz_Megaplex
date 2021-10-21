@@ -1,0 +1,174 @@
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: #0f5238;
+    color: orange;
+    font-family: 'Trebuchet MS';
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    color: orange;
+}
+
+.header img{
+    height: 100px; 
+    width: 300px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: #0f5238;
+}
+
+.home{
+    width: 200px;
+    color: orange;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid orange;
+    font-weight: bold;
+    text-align: center;
+}
+
+.feedback{
+    width: 200px;
+    color: orange;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid orange;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cinema{
+    display: flex;
+    height: 250px;
+    width: 1000px;
+    background-image: url("./assets/cinema.jpg") ;
+    background-size: cover;
+    justify-content: space-between;
+}
+
+.cinema:hover{
+    height: 250px;
+    width: 1000px;
+    background-image: url("./assets/bed.jpg") ;
+    background-size: cover;
+}
+
+.partners{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imax{
+    height: 50px;
+    width: 150px;
+    margin-right: 10px;
+    
+}
+.dolby{
+    height: 50px;
+    width: 150px;
+    margin-left: 10px;
+}
+
+.imaxdolby{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+}
+
+.desc1{
+    color: #0f5238;
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.partners{
+    color: orange;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main{
+    background-color: #ffe4c4;
+}
+
+.content1{
+    margin: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Lucida Sans';
+    border: 1px solid black;
+}
+
+.content2{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #0f5238;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.content3{
+    margin: 15px;
+    display: flex;
+    border: 10px solid #0f5238;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border: 1px solid black;
+   
+}
+
+.content3 img{
+    width: 250px;
+    height: 350px;
+    margin: 10px 0;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0f5238;
+}
+
+.socmed{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.copyright{
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ig img{
+    width: 50px;
+    height: 50px;
+}
+.twitter img{
+    width: 50px;
+    height: 50px;
+}
+.facebook img{
+    width: 50px;
+    height: 50px;
+}
+
+.contentForm{
+    display: flex;
+    background-color:#ffe4c4 ;
+    justify-content: center;
+}
+
+
